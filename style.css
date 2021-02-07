@@ -6,3 +6,19 @@
     width: 400px;
     padding: 20px 0;
 }
+#itemShow{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+ 
+    border-radius: 10px;
+}
+#itemShow h2{
+    width: 80%;
+
+}
+#itemShow img{
+    width: 400px;
+    border-radius: 10px;
+    margin: 14px 0;
+}
