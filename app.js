@@ -9,6 +9,7 @@ searchFood.addEventListener("click", () => {
     .then(response => response.json())
     .then(data => displayFoods(data))
 
+    .catch(err => alert("Sorry this food is not available!"))
 })
 
 displayFoods = foods =>{
@@ -50,4 +51,5 @@ displayFoods = foods =>{
         })
 
         }
+        
 }
